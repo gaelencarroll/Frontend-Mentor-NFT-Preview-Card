@@ -1,0 +1,135 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-preview-card{
+    background-color: hsl(216, 50%, 16%);
+    height: 600px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card-margins{
+    margin: 25px;
+}
+
+#cube{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.overlay{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+    transition: 0.5s;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay-svg{
+    fill: white;
+    fill-opacity: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.overlay:hover{
+    opacity: 0.5;
+}
+
+#title{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+#title:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+#description{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.eth-days-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.eth-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+#eth{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.days-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#days-left{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+hr{
+    border: .5px solid  hsl(215, 32%, 27%);
+}
+
+.author-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+#avatar{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+}
+
+#created-by{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+#name{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+#name:hover{
+    color: hsl(178, 100%, 50%);
+}
